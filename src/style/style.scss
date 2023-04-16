@@ -1,0 +1,47 @@
+.header-main{
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .title{
+        color: cadetblue;
+    }
+}
+}
+.search-field{
+    width: 250px;
+    border-radius: 5px;
+}
+.drawer{
+    .drawer-header{
+        border-bottom: 1px solid gray;
+        margin-bottom:10px ;
+        padding-bottom: 10px;
+    }
+    .drawer-title{
+        color: cadetblue;
+        font-size: 26px;
+    }
+    .close-drawer{
+        border-radius: 5px;
+    }
+    .drawer-buttons{
+        position: fixed;
+        bottom: 10px;
+        width: 100%;
+        border-top: 1px solid gray;
+        padding: 10px;
+        .drawer-add-btn{
+            margin-left: 163px;
+        }
+    }
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+      display: none;
+    }
+}
